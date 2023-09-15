@@ -9,9 +9,28 @@
             "password": "admin",
             "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/762.jpg",
             "userLevel": 1,
-            "createdAt": 1670165980638,
-            "cart" : [],
-            "wishlist" : []
+            "createdAt": 1670165980638
+        }
+    ],
+    "wishlist" : [
+        {
+            "id" : 1,
+            "userId" : 1,
+            "data"  : []
+        }
+    ],
+    "cart" : [
+        {
+            "id" : 1,
+            "userId" : 1,
+            "data"  : []
+        }
+    ],
+    "address" : [
+        {
+            "id" : 1,
+            "userId" : 1,
+            "data"  : []
         }
     ],
     "products" : [
