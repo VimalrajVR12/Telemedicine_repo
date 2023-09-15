@@ -6,31 +6,45 @@
             "firstName": "Ad",
             "lastName": "Minister",
             "email": "admin@gmail.com",
-            "password": "admin",
-            "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/762.jpg",
-            "userLevel": 1,
-            "createdAt": 1670165980638
+            "password": "admin"
         }
     ],
     "wishlist" : [
         {
             "id" : 1,
             "userId" : 1,
-            "data"  : []
+            "name": "Teenilicious Hand Cream for Women",
+            "description": "Sponsored Teenilicious Hand Cream for Women | Winter Cream for Dry and Rough Hand | Avocado Oil & Vanilla | Vegan | Free from Alcohol, Silicones, Paraben & Sulphates | Skin Moisturizing Cream | All Skins Type - 60gm | 4.5 out of 5 stars (103) | Limited time deal\n₹159\n₹159 (₹265/100 g) M.R.P:\n₹325\n₹325 (51% off)\nGet it by Tuesday, 12 September\nFREE Delivery over ₹499. Fulfilled by Amazon",
+            "image": "https://m.media-amazon.com/images/I/61GzgXYlQBL._AC_UL_.jpg",
+            "category": "Handcare",
+            "type": "Handcream",
+            "brand": "Teenilicious",
+            "weight": "60g",
+            "ratings": 4.5,
+            "MRP": 325,
+            "price": 159
         }
     ],
     "cart" : [
         {
             "id" : 1,
             "userId" : 1,
-            "data"  : []
+            "name": "Teenilicious Hand Cream for Women",
+            "description": "Sponsored Teenilicious Hand Cream for Women | Winter Cream for Dry and Rough Hand | Avocado Oil & Vanilla | Vegan | Free from Alcohol, Silicones, Paraben & Sulphates | Skin Moisturizing Cream | All Skins Type - 60gm | 4.5 out of 5 stars (103) | Limited time deal\n₹159\n₹159 (₹265/100 g) M.R.P:\n₹325\n₹325 (51% off)\nGet it by Tuesday, 12 September\nFREE Delivery over ₹499. Fulfilled by Amazon",
+            "image": "https://m.media-amazon.com/images/I/61GzgXYlQBL._AC_UL_.jpg",
+            "category": "Handcare",
+            "type": "Handcream",
+            "brand": "Teenilicious",
+            "weight": "60g",
+            "ratings": 4.5,
+            "MRP": 325,
+            "price": 159
         }
     ],
     "address" : [
         {
             "id" : 1,
-            "userId" : 1,
-            "data"  : []
+            "userId" : 1
         }
     ],
     "products" : [
