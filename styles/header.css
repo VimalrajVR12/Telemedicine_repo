@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+li{
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+    color: #00525d;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.navbar a:hover{
+    color: orange;
+}
+#navbar_mobile{
+    display: none;
+}
+
+
+/* NAVBAR NORMAL STARTS*/
+#navbar{
+    position: fixed;
+    padding: 0;
+    width: 100%;
+    background-color: #fff;
+    height: 70px;
+}
+.navbar{
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.navbar .navbar_left{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.navbar .logo{
+    padding-left: 2rem;
+    width: fit-content;
+    width: 300px;
+    
+}
+.navbar .logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: -10px;
+}
+.navbar .links{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.navbar .links .left{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 5rem;
+}
+.navbar .links .right{
+    display: flex;
+    column-gap: 20px;
+    padding-right: 20px;
+}
+.navbar .links > li{
+    position: relative;
+}
+.navbar .links li .subMenu{
+    position: absolute;
+    display: block;
+    /* width: 150px;  */
+    padding: 20px;
+    /* margin-top: 10px; */
+    /* margin-left: -40px; */
+    background: #f9fded;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.navbar .links > li .subMenu > li{
+    margin-left: 0px;
+}
+.hide{
+    display: none;
+    visibility: hidden;
+}
+.navbar .links > li ul li{
+    padding: 10px;
+}
+.navbar .links li ul li a{
+    font-size: 1rem;
+}
+/* .navbar .button_toggle{
+    color: #00525d;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding-left: 10px;
+    display: none;
+} */
+
+/* NAVBAR NORMAL ENDS */
+
+
+/* NAVBAR MOBILE STARTS */
+
+.container_right{
+    display: flex;
+    column-gap: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus,
+.navbar-toggler {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+.dropdown-menu{
+    border: none;
+    background-color: transparent;
+}
+.dropdown-menu li{
+    text-align: center;
+}
+
+
+/* NAVBAR MOBILE ENDS */
+
+/* Responsiveness */
+@media screen and (max-width : 1200px){
+    #navbar a{
+        font-size: 1rem;
+    }
+    .navbar .navbar_left{
+        column-gap: 1rem;
+    }
+    .navbar .navbar_left .links{
+        display: flex;
+        column-gap: 10px;
+    }
+}
+@media screen and (max-width : 912px){
+    #navbar_normal{
+        display: none;
+    }
+    #navbar_mobile{
+        display: block;
+    }
+    .container-fluid{
+        /* gap: 0; */
+        padding: 0;
+    }
+    .container_right{
+        gap: 0;
+        column-gap: 5px;
+    }
+    
+}
