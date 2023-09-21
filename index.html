@@ -10,20 +10,100 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/shortcodes.css">
 </head>
 
 <body>
-    <header id="navbar">
+    <header id="navbar" style="position: fixed; z-index: 999;">
 
-    </header><br><br><br><br><br><br><br><br><br><br>
+    </header><br><br><br>
 
     <main>
-
+        <!-- Slider Area Starts -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1" class="sliderButton"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2" class="sliderButton"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3" class="sliderButton"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href=""><img class="sliderImage" src="./images/slider/1.jpg" class="d-block w-100" alt="1"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href=""><img class="sliderImage" src="./images/slider/2.jpg" class="d-block w-100" alt="2"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href=""><img class="sliderImage" src="./images/slider/3.jpg" class="d-block w-100" alt="3"></a>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev" style="color: #00525d;">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- Slider Area Ends -->
+        <!-- Services Area Starts -->
+        <div id="service">
+            <div>
+                <h6>Best-in-Class</h6>
+                <h1>Healthcare Services</h1>
+                <p>Every time you are tempted to react in the same old way, ask if you want to be a prisoner of the past
+                    or a pioneer of the future</p>
+            </div>
+            <div>
+                <div>
+                    <div>
+                        <i class="fa-solid fa-stethoscope"></i>
+                        <h6>Online Consultation</h6>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <i class="fa-solid fa-hospital"></i>
+                        <h6>Hospital</h6>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <i class="fa-solid fa-syringe"></i>
+                        <h6>Medicines</h6>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <i class="fa-solid fa-vials"></i>
+                        <h6>Pathology Test</h6>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <i class="fa-solid fa-user-nurse"></i>
+                        <h6>Nursing</h6>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <i class="fa-solid fa-truck-medical"></i>
+                        <h6>Emergency</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer id="footer">
-        
+
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -32,7 +112,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
         crossorigin="anonymous"></script>
-    
+
 </body>
 
 </html>
